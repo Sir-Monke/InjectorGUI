@@ -1,0 +1,102 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\emoji %281%29.jpg" />
+    <None Remove="Images\emoji %2810%29.jpg" />
+    <None Remove="Images\emoji %2811%29.jpg" />
+    <None Remove="Images\emoji %2812%29.jpg" />
+    <None Remove="Images\emoji %2813%29.jpg" />
+    <None Remove="Images\emoji %2814%29.jpg" />
+    <None Remove="Images\emoji %2815%29.jpg" />
+    <None Remove="Images\emoji %2816%29.jpg" />
+    <None Remove="Images\emoji %2817%29.jpg" />
+    <None Remove="Images\emoji %283%29.jpg" />
+    <None Remove="Images\emoji %284%29.jpg" />
+    <None Remove="Images\emoji %285%29.jpg" />
+    <None Remove="Images\emoji %286%29.jpg" />
+    <None Remove="Images\emoji %287%29.jpg" />
+    <None Remove="Images\emoji %288%29.jpg" />
+    <None Remove="Images\emoji %289%29.jpg" />
+    <None Remove="Images\goofy %281%29.jpg" />
+    <None Remove="Images\goofy %2810%29.jpg" />
+    <None Remove="Images\goofy %2811%29.jpg" />
+    <None Remove="Images\goofy %2812%29.jpg" />
+    <None Remove="Images\goofy %2813%29.jpg" />
+    <None Remove="Images\goofy %2814%29.jpg" />
+    <None Remove="Images\goofy %2815%29.jpg" />
+    <None Remove="Images\goofy %282%29.jpg" />
+    <None Remove="Images\goofy %283%29.jpg" />
+    <None Remove="Images\goofy %284%29.jpg" />
+    <None Remove="Images\goofy %285%29.jpg" />
+    <None Remove="Images\goofy %286%29.jpg" />
+    <None Remove="Images\goofy %287%29.jpg" />
+    <None Remove="Images\goofy %288%29.jpg" />
+    <None Remove="Images\goofy %289%29.jpg" />
+    <None Remove="Images\goofy (16).jpg" />
+    <None Remove="Images\loser %281%29.jpg" />
+    <None Remove="Images\loser %282%29.jpg" />
+    <None Remove="Images\loser %283%29.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Images\goofy %2816%29.jpg" />
+    <EmbeddedResource Include="Images\emoji (1).jpg" />
+    <EmbeddedResource Include="Images\emoji (10).jpg" />
+    <EmbeddedResource Include="Images\emoji (11).jpg" />
+    <EmbeddedResource Include="Images\emoji (12).jpg" />
+    <EmbeddedResource Include="Images\emoji (13).jpg" />
+    <EmbeddedResource Include="Images\emoji (14).jpg" />
+    <EmbeddedResource Include="Images\emoji (15).jpg" />
+    <EmbeddedResource Include="Images\emoji (16).jpg" />
+    <EmbeddedResource Include="Images\emoji (17).jpg" />
+    <EmbeddedResource Include="Images\emoji (3).jpg" />
+    <EmbeddedResource Include="Images\emoji (4).jpg" />
+    <EmbeddedResource Include="Images\emoji (5).jpg" />
+    <EmbeddedResource Include="Images\emoji (6).jpg" />
+    <EmbeddedResource Include="Images\emoji (7).jpg" />
+    <EmbeddedResource Include="Images\emoji (8).jpg" />
+    <EmbeddedResource Include="Images\emoji (9).jpg" />
+    <EmbeddedResource Include="Images\goofy (1).jpg" />
+    <EmbeddedResource Include="Images\goofy (10).jpg" />
+    <EmbeddedResource Include="Images\goofy (11).jpg" />
+    <EmbeddedResource Include="Images\goofy (12).jpg" />
+    <EmbeddedResource Include="Images\goofy (13).jpg" />
+    <EmbeddedResource Include="Images\goofy (14).jpg" />
+    <EmbeddedResource Include="Images\goofy (15).jpg" />
+    <EmbeddedResource Include="Images\goofy (2).jpg" />
+    <EmbeddedResource Include="Images\goofy (3).jpg" />
+    <EmbeddedResource Include="Images\goofy (4).jpg" />
+    <EmbeddedResource Include="Images\goofy (5).jpg" />
+    <EmbeddedResource Include="Images\goofy (6).jpg" />
+    <EmbeddedResource Include="Images\goofy (7).jpg" />
+    <EmbeddedResource Include="Images\goofy (8).jpg" />
+    <EmbeddedResource Include="Images\goofy (9).jpg" />
+    <EmbeddedResource Include="Images\loser (1).jpg" />
+    <EmbeddedResource Include="Images\loser (2).jpg" />
+    <EmbeddedResource Include="Images\loser (3).jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

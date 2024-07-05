@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InjectorGUI", "InjectorGUI\InjectorGUI.csproj", "{A05AE37F-EFA9-4CB3-AC61-863AA4735712}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A05AE37F-EFA9-4CB3-AC61-863AA4735712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A05AE37F-EFA9-4CB3-AC61-863AA4735712}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A05AE37F-EFA9-4CB3-AC61-863AA4735712}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A05AE37F-EFA9-4CB3-AC61-863AA4735712}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5FB1215-753B-4DBC-A000-0C629FA17F9A}
+	EndGlobalSection
+EndGlobal
